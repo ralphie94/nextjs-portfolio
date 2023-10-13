@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { GrDocument } from 'react-icons/gr';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
 const Main = () => {
@@ -14,16 +14,24 @@ const Main = () => {
                 <p className='py-4 text-gray-600 max-w-[70%] m-auto'>I'm a Full-stack developer specializing in Front-End development. Always ready for a new challenge that will push me to grow as a developer.</p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <FaLinkedinIn />
+                        <a href='https://www.linkedin.com/in/rafaelceledon/' title='LinkedIn' target='_blank'>
+                            <FaLinkedinIn />
+                        </a>
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <FaGithub />
+                        <a href='https://github.com/ralphie94' title='Github' target='_blank'>
+                            <FaGithub />
+                        </a>
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <AiOutlineMail />
+                        <a href='mailto:ralphie0319@gmail.com' title='Mail' target='_blank'>
+                            <AiOutlineMail />
+                        </a>
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <BsFillPersonLinesFill />
+                        <a href='' title='Resume' target='_blank'>
+                            <GrDocument />
+                        </a>
                     </div>
                 </div>
             </div>
