@@ -4,6 +4,7 @@ import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { GrDocument } from 'react-icons/gr';
 import { HiOutlineChevronDoubleUp} from 'react-icons/hi'
 
 const Contact = () => {
@@ -27,16 +28,24 @@ const Contact = () => {
                         <p className='uppercase pt-8'>Connect With Me</p>
                             <div className='flex items-center justify-between py-4'>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <a href='https://www.linkedin.com/in/rafaelceledon/' title='LinkedIn' target='_blank'>
                                     <FaLinkedinIn />
+                                </a>
                                 </div>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                    <FaGithub />
+                                    <a href='https://github.com/ralphie94' title='Github' target='_blank'>
+                                        <FaGithub />
+                                    </a>
                                 </div>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                    <AiOutlineMail />
+                                    <a href='mailto:ralphie0319@gmail.com' title='Mail' target='_blank'>
+                                        <AiOutlineMail />
+                                    </a>
                                 </div>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                    <BsFillPersonLinesFill />
+                                    <a href='' title='Resume' target='_blank'>
+                                        <GrDocument />
+                                    </a>
                                 </div>
                             </div>
                         </div>
