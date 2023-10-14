@@ -11,7 +11,7 @@ const About = () => {
                 <h2 className='py-4'>Who I Am</h2>
                 <p className='py-2 text-gray-600'>I have spent the last 4 years learning coding and web development and everything I can learn about it.
                     It started when I was first introduced to HTML and CSS from a friend. I had no idea what it was or what it can do, 
-                    but when I saw wht I can put on a computer screen, 
+                    but when I saw what I can put on a computer screen, 
                     I fell in love. From that point on, I have been sharpening my skills in Front-End development and my goal everyday is trying to create beautiful and aesthetically pleasing websites.
                     My focus these days is building websites for clients and bringing their vision to the screen.    
                 </p>
