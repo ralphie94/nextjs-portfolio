@@ -56,7 +56,7 @@ const Navbar = () => {
         </div>
 
         <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
-            <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500' : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
+            <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500' : 'fixed left-[-125%] top-0 p-10 ease-in duration-500'}>
                 <div>
                     <div className='flex w-full items-center justify-between'>
                         <Image src='/assets/navLogo.png' alt='/' width='57' height='35' />
@@ -86,9 +86,9 @@ const Navbar = () => {
                             <li onClick={() => setNav(false)} className='py-4 text-sm'>Contact</li>
                         </Link>
                     </ul>
-                    <div className='pt-40'>
+                    <div className='pt-36'>
                         <p className='uppercase tracking-widest text-[#5651e5]'>Let's Connect</p>
-                        <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
+                        <div className='flex items-center justify-between my-2 w-full sm:w-[80%]'>
                             <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                             <a href='https://www.linkedin.com/in/rafaelceledon/' title='LinkedIn' target='_blank'>
                                 <FaLinkedinIn />
