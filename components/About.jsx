@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const About = () => {
@@ -18,7 +19,7 @@ const About = () => {
                     When I'm not at the computer, I'm spending time with my wife and daughter, 
                     making coffee, watching movies, exercising and trying new food recipes that will convince my wife I'm a good cook.
                 </p>
-                <a href='/#projects'><p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects</p></a>
+                <Link href='/#projects'><p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects</p></Link>
             </div>
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
                 <Image className='rounded-xl' src="/assets/projects/ralphie.png" width='500' height='50' alt='/' />
