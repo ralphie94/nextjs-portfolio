@@ -11,8 +11,9 @@ export default function Home() {
     <div>
       <Head>
         <title>Ralphie Celedon | Front-End Developer</title>
-        <meta name="description" content="I am a Web Developer based in Los Angeles striving to make my dreams into reality." />
-        <link rel="icon" type="image/png" href="/favicon.ico" />
+        <meta name="description" content="I am a Web Developer based in Los Angeles striving to make my dreams into reality. I create sharp and user friendly websites for clients." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       </Head>
     <Navbar />
     <Main />
