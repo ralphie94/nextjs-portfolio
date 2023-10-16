@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { GrDocument } from 'react-icons/gr';
-import { useRouter } from 'next/router';
+// import { Resume } from 'public/resume/Ralphie-Celedon-Resume.pdf';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
