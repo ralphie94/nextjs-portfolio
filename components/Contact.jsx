@@ -2,7 +2,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { GrDocument } from 'react-icons/gr';
 import { HiOutlineChevronDoubleUp} from 'react-icons/hi'
@@ -43,7 +42,7 @@ const Contact = () => {
                                     </a>
                                 </div>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                    <a href='' title='Resume' target='_blank'>
+                                    <a href='/Ralph-Celedon-Resume.pdf' title='Resume' target='_blank'>
                                         <GrDocument />
                                     </a>
                                 </div>
